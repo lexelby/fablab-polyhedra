@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4998"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   width="300"
+   height="235"
+   xml:space="preserve"
+   sodipodi:docname="TruncatedCube.pdf"><metadata
+     id="metadata5004"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs5002"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5014"><path
+         d="M 0,0 240,0 240,188 0,188 0,0 z"
+         id="path5016" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5000"
+     showgrid="false"
+     inkscape:zoom="1.1148936"
+     inkscape:cx="150"
+     inkscape:cy="117.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g5006" /><g
+     id="g5006"
+     inkscape:groupmode="layer"
+     inkscape:label="TruncatedCube"
+     transform="matrix(1.25,0,0,-1.25,0,235)"><g
+       id="g5008" /><g
+       id="g5010"><g
+         id="g5012"
+         clip-path="url(#clipPath5014)"><path
+           d="m 4.8,77.135 0,23.236 m 0,-23.236 16.43,-16.43 m -16.43,39.666 16.43,16.43 m 0,-56.096 23.236,0 m -23.236,56.096 23.236,0 m 0,-56.096 16.431,16.43 m -16.431,39.666 16.431,-16.43 m -6.014,-45.68 6.014,22.444 m -6.014,-22.444 22.444,6.014 m -22.444,62.11 6.014,-22.444 m -6.014,22.444 22.444,-6.014 m -16.43,-95.762 0,23.236 m 0,-23.236 16.43,-16.431 m -16.43,39.667 16.43,16.43 m -16.43,16.43 0,23.236 m 0,-23.236 16.43,-16.43 m -16.43,39.666 16.43,16.43 m -16.43,16.431 0,23.236 m 0,-23.236 16.43,-16.431 m -16.43,39.667 16.43,16.43 m 0,-168.29 23.236,0 m -23.236,56.097 23.236,0 m -23.236,56.096 23.236,0 m -23.236,56.097 23.236,0 m 0,-168.29 16.43,16.431 m -16.43,39.666 16.43,-16.43 m -16.43,16.43 16.43,16.43 m -16.43,-16.43 22.444,-6.014 m -22.444,62.11 16.43,-16.43 m -16.43,16.43 16.43,16.431 m -16.43,-16.431 22.444,6.014 m -22.444,50.083 16.43,-16.43 m 0,-135.429 0,23.236 m 0,32.86 0,23.236 m 0,-23.236 6.014,-22.444 m -6.014,22.444 16.43,-16.43 m -16.43,39.666 6.014,22.444 m -6.014,-22.444 16.43,16.43 m -16.43,16.431 0,23.236 m 16.43,-95.763 23.236,0 m -23.236,56.096 23.236,0 m 0,-56.096 16.431,16.43 m -16.431,-16.43 22.444,-6.014 m -22.444,62.11 16.431,-16.43 m -16.431,16.43 22.444,6.014 m -6.013,-45.68 0,23.236 m 0,-23.236 6.013,-22.444 m -6.013,22.444 16.43,-16.43 m -16.43,39.666 6.013,22.444 m -6.013,-22.444 16.43,16.43 m 0,-56.096 23.236,0 m -23.236,56.096 23.236,0 m 0,-56.096 16.43,16.43 m -16.43,-16.43 22.444,-6.014 m -22.444,62.11 16.43,-16.43 m -16.43,16.43 22.444,6.014 m -6.014,-45.68 0,23.236 m 0,-23.236 6.014,-22.444 m -6.014,45.68 6.014,22.444"
+           style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:0.4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none"
+           id="path5018" /><text
+           transform="matrix(1,0,0,-1,90.413,179.506)"
+           id="text5020"><tspan
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times;font-variant:normal;font-weight:normal;font-size:9.6;writing-mode:lr;-inkscape-font-specification:Times-Roman"
+             x="0 5.8656 9.0624 13.8624 18.6624 22.9248 27.1872 29.856 34.1184 38.9184 45.3216 50.1216 54.9216"
+             y="0"
+             sodipodi:role="line"
+             id="tspan5022">TruncatedCube</tspan></text>
+</g></g></g></svg>

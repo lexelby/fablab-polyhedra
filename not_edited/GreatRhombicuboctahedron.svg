@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4744"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   width="300"
+   height="212.5"
+   xml:space="preserve"
+   sodipodi:docname="GreatRhombicuboctahedron.pdf"><metadata
+     id="metadata4750"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4748"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4760"><path
+         d="M 0,0 240,0 240,170 0,170 0,0 z"
+         id="path4762" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview4746"
+     showgrid="false"
+     inkscape:zoom="1.2329412"
+     inkscape:cx="150"
+     inkscape:cy="106.25"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4752" /><g
+     id="g4752"
+     inkscape:groupmode="layer"
+     inkscape:label="GreatRhombicuboctahedron"
+     transform="matrix(1.25,0,0,-1.25,0,212.5)"><g
+       id="g4754" /><g
+       id="g4756"><g
+         id="g4758"
+         clip-path="url(#clipPath4760)"><path
+           d="m 4.8,71.682 0,16.274 M 4.8,71.682 16.308,60.174 M 4.8,87.956 16.308,99.464 m 0,-55.565 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m -16.275,39.29 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m 0,-71.84 0,16.275 m 0,0 11.508,11.508 m -11.508,27.782 0,16.275 m 0,-16.275 11.508,-11.508 M 35.953,57.587 44.091,43.493 m -8.138,14.094 8.138,14.095 m -8.138,30.369 8.138,-14.095 m -8.138,14.095 8.138,14.094 m 0,-72.652 16.275,0 m -16.275,28.189 0,16.274 m 0,-16.274 16.275,0 m -16.275,16.274 16.275,0 m -16.275,28.189 16.275,0 m 0,-100.029 0,16.275 m 0,-16.275 L 71.874,4.608 M 60.366,32.391 71.874,43.899 m -11.508,-0.406 8.137,14.094 m -8.137,14.095 0,16.274 m 0,-16.274 8.137,-14.095 M 60.366,71.682 71.874,60.174 m -11.508,27.782 8.137,14.095 M 60.366,87.956 71.874,99.464 m -11.508,16.681 8.137,-14.094 m -8.137,25.196 0,16.275 m 0,-16.275 11.508,-11.508 m -11.508,27.783 11.508,11.508 m 0,-150.422 16.274,0 m -16.274,39.291 0,16.275 m 0,-16.275 16.274,0 m -16.274,16.275 16.274,0 m -16.274,39.29 0,16.275 m 0,-16.275 16.274,0 m -16.274,16.275 16.274,0 m -16.274,39.291 16.274,0 m 0,-150.422 11.508,11.508 m -11.508,27.783 0,16.275 m 0,-16.275 11.508,-11.508 M 88.148,60.174 99.656,71.682 m -11.508,27.782 0,16.275 m 0,-16.275 11.508,-11.508 m -11.508,27.783 11.508,11.508 M 88.148,155.03 99.656,143.522 M 91.519,57.587 99.656,43.493 m -8.137,14.094 8.137,14.095 m -8.137,30.369 8.137,-14.095 m -8.137,14.095 8.137,14.094 m 0,-100.029 0,16.275 m 0,11.102 16.275,0 m -16.275,28.189 0,16.274 m 0,-16.274 16.275,0 m -16.275,16.274 16.275,0 m -16.275,28.189 16.275,0 m -16.275,11.102 0,16.275 m 16.275,-100.029 8.138,14.094 m -8.138,14.095 0,16.274"
+           style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:0.4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none"
+           id="path4764" /><path
+           d="m 115.931,71.682 8.138,-14.095 m -8.138,14.095 11.508,-11.508 m -11.508,27.782 8.138,14.095 m -8.138,-14.095 11.508,11.508 m -11.508,16.681 8.138,-14.094 m 3.37,-58.152 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m -16.275,39.29 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m 0,-71.84 0,16.275 m 0,0 11.508,11.508 m -11.508,27.782 0,16.275 m 0,-16.275 11.508,-11.508 m -8.137,-30.369 8.137,-14.094 m -8.137,14.094 8.137,14.095 m -8.137,30.369 8.137,-14.095 m -8.137,14.095 8.137,14.094 m 0,-72.652 16.275,0 m -16.275,28.189 0,16.274 m 0,-16.274 16.275,0 m -16.275,16.274 16.275,0 m -16.275,28.189 16.275,0 m 0,-72.652 8.137,14.094 m -8.137,14.095 0,16.274 m 0,-16.274 8.137,-14.095 m -8.137,14.095 11.508,-11.508 m -11.508,27.782 8.137,14.095 m -8.137,-14.095 11.508,11.508 m -11.508,16.681 8.137,-14.094 m 3.371,-58.152 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m -16.275,39.29 0,16.275 m 0,-16.275 16.275,0 m -16.275,16.275 16.275,0 m 0,-71.84 0,16.275 m 0,0 11.508,11.508 m -11.508,27.782 0,16.275 m 0,-16.275 11.508,-11.508 m -8.138,-30.369 8.138,-14.094 m -8.138,14.094 8.138,14.095 m -8.138,30.369 8.138,-14.095 m -8.138,14.095 8.138,14.094 m 0,-72.652 16.275,0 m -16.275,28.189 0,16.274 m 0,-16.274 16.275,0 m -16.275,16.274 16.275,0 m -16.275,28.189 16.275,0 m 0,-72.652 8.137,14.094 m -8.137,14.095 0,16.274 m 0,-16.274 8.137,-14.095 m -8.137,30.369 8.137,14.095 m -8.137,14.094 8.137,-14.094"
+           style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:0.4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none"
+           id="path4766" /><text
+           transform="matrix(1,0,0,-1,65.618,161.638)"
+           id="text4768"><tspan
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times;font-variant:normal;font-weight:normal;font-size:9.6;writing-mode:lr;-inkscape-font-specification:Times-Roman"
+             x="0 6.9312 10.128 14.3904 18.6528 21.3216 27.7248 32.5248 37.3248 44.7936 49.5936 52.2624 56.5248 61.3248 66.1248 70.9248 75.1872 77.856 82.1184 86.9184 91.1808 95.9808 99.1776 103.9776"
+             y="0"
+             sodipodi:role="line"
+             id="tspan4770">GreatRhombicuboctahedron</tspan></text>
+</g></g></g></svg>

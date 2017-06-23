@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5110"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   width="300"
+   height="140"
+   xml:space="preserve"
+   sodipodi:docname="TruncatedTetrahedron.pdf"><metadata
+     id="metadata5116"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs5114"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5126"><path
+         d="M 0,0 240,0 240,112 0,112 0,0 z"
+         id="path5128" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview5112"
+     showgrid="false"
+     inkscape:zoom="1.6966667"
+     inkscape:cx="150"
+     inkscape:cy="70"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g5118" /><g
+     id="g5118"
+     inkscape:groupmode="layer"
+     inkscape:label="TruncatedTetrahedron"
+     transform="matrix(1.25,0,0,-1.25,0,140)"><g
+       id="g5120" /><g
+       id="g5122"><g
+         id="g5124"
+         clip-path="url(#clipPath5126)"><path
+           d="M 4.8,66.003 22.523,35.305 M 4.8,66.003 22.523,96.7 m 0,-61.395 17.723,-30.697 m -17.723,30.697 35.446,0 M 22.523,96.7 l 35.446,0 M 40.246,4.608 57.969,35.305 m 0,0 L 75.692,4.608 M 57.969,35.305 75.692,66.003 M 57.969,96.7 75.692,66.003 m 0,-61.395 35.446,0 M 75.692,66.003 93.415,96.7 m -17.723,-30.697 35.446,0 M 93.415,96.7 111.138,66.003 m 0,-61.395 17.724,30.697 M 111.138,66.003 128.862,35.305 M 111.138,66.003 128.862,96.7 m 0,-61.395 17.723,-30.697 m -17.723,30.697 35.446,0 m -35.446,61.395 35.446,0 M 146.585,4.608 164.308,35.305 m 0,0 17.723,-30.697 m -17.723,30.697 17.723,30.698 M 164.308,96.7 182.031,66.003 m 0,-61.395 35.446,0 M 182.031,66.003 199.754,96.7 m -17.723,-30.697 35.446,0 M 199.754,96.7 217.477,66.003 m 0,-61.395 17.723,30.697 M 217.477,66.003 235.2,35.305"
+           style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:0.4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none"
+           id="path5130" /><text
+           transform="matrix(1,0,0,-1,77.091,103.308)"
+           id="text5132"><tspan
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times;font-variant:normal;font-weight:normal;font-size:9.6;writing-mode:lr;-inkscape-font-specification:Times-Roman"
+             x="0 5.8656 9.0624 13.8624 18.6624 22.9248 27.1872 29.856 34.1184 38.9184 44.784 49.0464 51.7152 54.912 59.1744 63.9744 68.2368 73.0368 76.2336 81.0336"
+             y="0"
+             sodipodi:role="line"
+             id="tspan5134">TruncatedTetrahedron</tspan></text>
+</g></g></g></svg>

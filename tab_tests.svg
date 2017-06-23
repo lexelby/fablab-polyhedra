@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg7628"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="tab_tests.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9949368"
+     inkscape:cx="473.21012"
+     inkscape:cy="887.37062"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="944"
+     inkscape:window-x="25"
+     inkscape:window-y="50"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="-0.20791169,0.9781476"
+       position="40.882421,698.11937"
+       id="guide5155" />
+    <sodipodi:guide
+       orientation="0.9781476,0.20791169"
+       position="67.288063,687.98319"
+       id="guide5157" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="40.88242,698.11936"
+       id="guide5159" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="123.38664,715.65618"
+       id="guide5161" />
+  </sodipodi:namedview>
+  <defs
+     id="defs7630" />
+  <metadata
+     id="metadata7633">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g10383"
+       inkscape:label="tab"
+       transform="translate(35.225255,283.26941)">
+      <path
+         id="path10385"
+         d="M 0,0 20,20 80,20 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path10387"
+         d="m 28,-3 4,5 36,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path10389"
+         d="M 0,0 28,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path10391"
+         d="M 100,0 72,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g10473"
+       inkscape:label="tab"
+       transform="translate(34.112545,264.18212)">
+      <path
+         id="path10475"
+         d="m 0,0 35,0 0,2 -6,0 c 0,0 1,8 6,12 8,6 22,6 30,0 5,-4 6,-12 6,-12 l -6,0 0,-2 35,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path10477"
+         d="M 42,0 58,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12266"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(165.99171,132.71507)"><flowRegion
+         id="flowRegion12268"><rect
+           id="rect12270"
+           width="49.986439"
+           height="15.40678"
+           x="33.552544"
+           y="-38.437817" /></flowRegion><flowPara
+         id="flowPara12272">30 deg</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12274"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(165.99171,132.71507)"><flowRegion
+         id="flowRegion12276"><rect
+           id="rect12278"
+           width="69.159325"
+           height="14.379661"
+           x="143.11186"
+           y="-43.231037" /></flowRegion><flowPara
+         id="flowPara12280">36 deg</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12282"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(-52.099815,31.715074)"><flowRegion
+         id="flowRegion12284"><rect
+           id="rect12286"
+           width="81.827118"
+           height="21.569492"
+           x="134.55254"
+           y="47.840149" /></flowRegion><flowPara
+         id="flowPara12288">24 deg</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12290"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(-71.912385,85.253845)"><flowRegion
+         id="flowRegion12292"><rect
+           id="rect12294"
+           width="86.620338"
+           height="22.254238"
+           x="131.81355"
+           y="98.168961" /></flowRegion><flowPara
+         id="flowPara12296">18 deg</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot12298"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(159.03164,111.83487)"><flowRegion
+         id="flowRegion12300"><rect
+           id="rect12302"
+           width="80.115257"
+           height="24.993219"
+           x="34.237289"
+           y="63.246929" /></flowRegion><flowPara
+         id="flowPara12304">12 deg</flowPara></flowRoot>    <g
+       id="g12322"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,251.34687,60.253969)">
+      <path
+         id="path12324"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12326"
+         d="m 8,-3 4,5 36,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12328"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12330"
+         d="M 80,0 52,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.91354546,-0.40673664,0.40673664,0.91354546,22.567805,55.777006)"
+       id="g12332"
+       inkscape:label="tab">
+      <path
+         id="path12334"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12336"
+         d="M 62,0 78,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,365.0691,67.08158)"
+       inkscape:label="tab"
+       id="g12350">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         id="path12352" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 36,0 4,-5"
+         id="path12354" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path12356" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 80,0 52,0"
+         id="path12358" />
+    </g>
+    <g
+       id="g12360"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,122.5678,55.777006)">
+      <path
+         id="path12362"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12364"
+         d="m 8,-3 4,5 36,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12366"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12368"
+         d="M 80,0 52,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g12370"
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,151.34687,60.253969)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         id="path12372" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 62,0 78,0"
+         id="path12374" />
+    </g>
+    <g
+       transform="matrix(0.80901699,-0.58778525,0.58778525,0.80901699,265.06911,67.08158)"
+       id="g12376"
+       inkscape:label="tab">
+      <path
+         id="path12378"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path12380"
+         d="M 62,0 78,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g12382"
+       transform="matrix(0.95105652,-0.30901699,0.30901699,0.95105652,23.182895,178.18036)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 65,0 0,2 -6,0 c 0,0 1,3 6,6 8,2 11,2 19,3 5,-4 9,-10 7,-9 l -6,0 0,-2 15,0"
+         id="path12384" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 72,0 6,0"
+         id="path12386" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,123.1829,178.18036)"
+       inkscape:label="tab"
+       id="g12388">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 10,16 60,9 65,0 100,0"
+         id="path12390" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 26,0 4,-5"
+         id="path12392" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path12394" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 65,0 42,0"
+         id="path12396" />
+    </g>
+    <flowRoot
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4421"
+       xml:space="preserve"
+       transform="translate(286.69551,113.22688)"><flowRegion
+         id="flowRegion4423"><rect
+           y="63.246929"
+           x="34.237289"
+           height="24.993219"
+           width="80.115257"
+           id="rect4425" /></flowRegion><flowPara
+         id="flowPara4427">6 deg</flowPara></flowRoot>    <g
+       transform="matrix(-1,0,0,-1,382.13433,166.69812)"
+       inkscape:label="tab"
+       id="g4435">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 4,9 7,9 12,2"
+         id="path4437" />
+      <path
+         id="path4511"
+         d="m 28,2 5,4.5 5,-1 2,-5.5 60,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 16,0 4,-5"
+         id="path4441" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 32,0 8,0"
+         id="path4443" />
+      <path
+         id="path4515"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.9945219,-0.10452846,0.10452846,0.9945219,282.13433,166.69812)"
+       id="g4451"
+       inkscape:label="tab">
+      <path
+         id="path4453"
+         d="m 0,0 71,0 0,2 -2,0 3,4 16,1 3,-5 -2,0 0,-2 11,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         id="path4455"
+         d="M 75,0 85,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g4517"
+       transform="matrix(0.97814761,-0.20791169,0.20791169,0.97814761,159.953,168.07322)">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 71,0 0,2 -2,0 3,4 16,1 3,-5 -2,0 0,-2 11,0"
+         id="path4519" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 75,0 85,0"
+         id="path4521" />
+    </g>
+    <g
+       id="g4523"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,259.953,168.07322)">
+      <path
+         id="path4525"
+         d="M 0,0 4,9 7,9 12,2"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 28,2 5,4.5 5,-1 2,-5.5 60,0"
+         id="path4527" />
+      <path
+         id="path4529"
+         d="m 8,-3 4,5 16,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4531"
+         d="m 32,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path4533" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g4559"
+       transform="translate(-243.45346,45.184268)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         id="path4561" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 62,0 78,0"
+         id="path4563" />
+    </g>
+    <g
+       transform="translate(-236.3467,88.889491)"
+       inkscape:label="tab"
+       id="g4565">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         id="path4567" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 36,0 4,-5"
+         id="path4569" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path4571" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 80,0 52,0"
+         id="path4573" />
+    </g>
+    <flowRoot
+       transform="translate(172.95178,491.85455)"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4903"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4905"><rect
+           y="-38.437817"
+           x="33.552544"
+           height="15.40678"
+           width="49.986439"
+           id="rect4907" /></flowRegion><flowPara
+         id="flowPara4909">30 deg</flowPara></flowRoot>    <flowRoot
+       transform="translate(172.95178,491.85455)"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4911"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4913"><rect
+           y="-43.231037"
+           x="143.11186"
+           height="14.379661"
+           width="69.159325"
+           id="rect4915" /></flowRegion><flowPara
+         id="flowPara4917">36 deg</flowPara></flowRoot>    <flowRoot
+       transform="translate(-45.139748,390.85455)"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4919"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4921"><rect
+           y="47.840149"
+           x="134.55254"
+           height="21.569492"
+           width="81.827118"
+           id="rect4923" /></flowRegion><flowPara
+         id="flowPara4925">24 deg</flowPara></flowRoot>    <flowRoot
+       transform="translate(-64.952318,444.39332)"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4927"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4929"><rect
+           y="98.168961"
+           x="131.81355"
+           height="22.254238"
+           width="86.620338"
+           id="rect4931" /></flowRegion><flowPara
+         id="flowPara4933">18 deg</flowPara></flowRoot>    <flowRoot
+       transform="translate(165.99171,470.97435)"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       id="flowRoot4935"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4937"><rect
+           y="63.246929"
+           x="34.237289"
+           height="24.993219"
+           width="80.115257"
+           id="rect4939" /></flowRegion><flowPara
+         id="flowPara4941">12 deg</flowPara></flowRoot>    <g
+       transform="matrix(-1,0,0,-1,258.30694,419.39344)"
+       inkscape:label="tab"
+       id="g4943">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         id="path4945" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 36,0 4,-5"
+         id="path4947" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path4949" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 80,0 52,0"
+         id="path4951" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g4953"
+       transform="matrix(0.91354546,-0.40673664,0.40673664,0.91354546,29.527872,414.91648)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         id="path4955" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 62,0 78,0"
+         id="path4957" />
+    </g>
+    <g
+       id="g4959"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,372.02917,426.22106)">
+      <path
+         id="path4961"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4963"
+         d="m 8,-3 4,5 36,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4965"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4967"
+         d="M 80,0 52,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,129.52787,414.91648)"
+       inkscape:label="tab"
+       id="g4969">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 10,20 70,11 80,0 100,0"
+         id="path4971" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 36,0 4,-5"
+         id="path4973" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path4975" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 80,0 52,0"
+         id="path4977" />
+    </g>
+    <g
+       transform="matrix(0.8660254,-0.5,0.5,0.8660254,158.30694,419.39344)"
+       id="g4979"
+       inkscape:label="tab">
+      <path
+         id="path4981"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4983"
+         d="M 62,0 78,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g4985"
+       transform="matrix(0.80901699,-0.58778525,0.58778525,0.80901699,272.02918,426.22106)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 55,0 0,2 -6,0 c 0,0 1,3 6,6 8,3 19,6 27,8 5,-4 9,-14 9,-14 l -6,0 0,-2 15,0"
+         id="path4987" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 62,0 78,0"
+         id="path4989" />
+    </g>
+    <g
+       transform="matrix(0.95105652,-0.30901699,0.30901699,0.95105652,30.142962,537.31984)"
+       id="g4991"
+       inkscape:label="tab">
+      <path
+         id="path4993"
+         d="m 0,0 65,0 0,2 -6,0 c 0,0 1,3 6,6 8,2 11,2 19,3 5,-4 9,-10 7,-9 l -6,0 0,-2 15,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4995"
+         d="m 72,0 6,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4997"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,130.14297,537.31984)">
+      <path
+         id="path4999"
+         d="M 0,0 10,16 60,9 65,0 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5001"
+         d="m 8,-3 4,5 26,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5003"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5005"
+         d="M 65,0 42,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       transform="translate(293.65558,472.36636)"
+       xml:space="preserve"
+       id="flowRoot5007"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion5009"><rect
+           id="rect5011"
+           width="80.115257"
+           height="24.993219"
+           x="34.237289"
+           y="63.246929" /></flowRegion><flowPara
+         id="flowPara5013">6 deg</flowPara></flowRoot>    <g
+       id="g5015"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,389.0944,525.8376)">
+      <path
+         id="path5017"
+         d="M 0,0 4,9 7,9 12,2"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 28,2 5,4.5 5,-1 2,-5.5 60,0"
+         id="path5019" />
+      <path
+         id="path5021"
+         d="m 8,-3 4,5 16,0 4,-5"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5023"
+         d="m 32,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 0,0 8,0"
+         id="path5025" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g5027"
+       transform="matrix(0.9945219,-0.10452846,0.10452846,0.9945219,289.0944,525.8376)">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 71,0 0,2 -2,0 3,4 16,1 3,-5 -2,0 0,-2 11,0"
+         id="path5029" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="M 75,0 85,0"
+         id="path5031" />
+    </g>
+    <g
+       transform="matrix(0.97814761,-0.20791169,0.20791169,0.97814761,166.91307,527.2127)"
+       id="g5033"
+       inkscape:label="tab">
+      <path
+         id="path5035"
+         d="m 0,0 71,0 0,2 -2,0 3,4 16,1 3,-5 -2,0 0,-2 11,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         id="path5037"
+         d="M 75,0 85,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,266.91307,527.2127)"
+       inkscape:label="tab"
+       id="g5039">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="M 0,0 4,9 7,9 12,2"
+         id="path5041" />
+      <path
+         id="path5043"
+         d="m 28,2 5,4.5 5,-1 2,-5.5 60,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 8,-3 4,5 16,0 4,-5"
+         id="path5045" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 32,0 8,0"
+         id="path5047" />
+      <path
+         id="path5049"
+         d="M 0,0 8,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5065"
+       transform="matrix(0.80901699,-0.58778525,0.58778525,0.80901699,-219.09805,371.48067)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5053" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5057" />
+    </g>
+    <g
+       id="g5069"
+       transform="matrix(1,0,0,-1,-137.30082,623.22666)">
+      <path
+         id="path5071"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5073"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(-121.28664,219.13624)"
+       id="g5075">
+      <path
+         id="path5077"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5079"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,-121.28664,774.53896)"
+       id="g5081">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5083" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5085" />
+    </g>
+    <g
+       id="g5087"
+       transform="translate(-261.65321,228.72017)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5089" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5091" />
+    </g>
+    <g
+       id="g5093"
+       transform="matrix(1,0,0,-1,-261.65321,784.12289)">
+      <path
+         id="path5095"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5097"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(-416.23808,239.61848)"
+       id="g5099">
+      <path
+         id="path5101"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5103"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,-416.23808,795.0212)"
+       id="g5105">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5107" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5109" />
+    </g>
+    <g
+       id="g5111"
+       transform="matrix(0.91354546,-0.40673664,0.40673664,0.91354546,-461.58736,273.97479)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5113" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5115" />
+    </g>
+    <g
+       id="g5117"
+       transform="matrix(1,0,0,-1,-385.49862,631.94418)">
+      <path
+         id="path5119"
+         d="m 426.38104,277.70136 24.25113,0 -1.04831,4.93192 59.3014,12.6049 17.49578,-17.53682"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path5121"
+         d="m 450.63217,277.70136 101.9404,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       transform="translate(-289.60592,47.483065)"
+       id="g5123">
+      <path
+         id="path5125"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5127"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,-289.60592,602.88579)"
+       id="g5129">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 20,20 60,0 20,-20"
+         id="path5131" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5133" />
+    </g>
+    <g
+       id="g5135"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,-630.6029,464.46045)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 426.38104,277.70136 24.14213,10 55.85787,10 20,-20"
+         id="path5137"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 426.38104,277.70136 100,0"
+         id="path5139" />
+    </g>
+    <g
+       id="g5141"
+       transform="matrix(1,0,0,-1,-559.1225,637.0294)">
+      <path
+         id="path5143"
+         d="m 426.38104,277.70136 24.14213,10 55.85787,10 20,-20"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="path5145"
+         d="m 426.38104,277.70136 100,0"
+         style="fill:none;stroke:#ff0000"
+         inkscape:connector-curvature="0" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5147"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(-252.90725,330.55839)"><flowRegion
+         id="flowRegion5149"><rect
+           id="rect5151"
+           width="81.827118"
+           height="21.569492"
+           x="134.55254"
+           y="47.840149" /></flowRegion><flowPara
+         id="flowPara5153">45 deg</flowPara></flowRoot>    <flowRoot
+       transform="translate(422.90672,112.47641)"
+       xml:space="preserve"
+       id="flowRoot81675"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
+         id="flowRegion81677"><rect
+           id="rect81679"
+           width="80.115257"
+           height="24.993219"
+           x="34.237289"
+           y="63.246929" /></flowRegion><flowPara
+         id="flowPara81681">6 deg</flowPara></flowRoot>    <g
+       id="g81683"
+       inkscape:label="tab"
+       transform="matrix(-1,0,0,-1,518.34554,165.94765)">
+      <path
+         id="path81685"
+         d="M 0,0 1,10 12,9 16,2 14,2 14,0 100,0"
+         style="fill:none;stroke:#0000ff"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 4,0 6,0"
+         id="path81693" />
+    </g>
+    <g
+       inkscape:label="tab"
+       id="g81695"
+       transform="matrix(0.9945219,-0.10452846,0.10452846,0.9945219,418.34554,165.94765)">
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#0000ff"
+         d="m 0,0 70,0 2,7 10,1 5,-6 -2,0 0,-2 15,0"
+         id="path81697" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff0000"
+         d="m 74,0 7,0"
+         id="path81699" />
+    </g>
+  </g>
+</svg>

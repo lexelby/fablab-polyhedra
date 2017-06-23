@@ -1,0 +1,383 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     14754,        374]
+NotebookOptionsPosition[     14310,        354]
+NotebookOutlinePosition[     14688,        371]
+CellTagsIndexPosition[     14645,        368]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Copyright (C) 2010 Jonathan Manton (jmanton @ illinois.edu)
+
+This program is free software; you can redistribute it and/or modify it under \
+the terms of the GNU General Public License as published by the Free Software \
+Foundation; either version 2 of the License, or (at your option) any later \
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT \
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS \
+FOR A PARTICULAR PURPOSE.  See the# GNU General Public License for more \
+details.
+
+You should have received a copy of the GNU General Public License along with \
+this program; if not, write to the Free Software Foundation, Inc., 59 Temple \
+Place, Suite 330, Boston, MA  02111-1307  USA\
+\>", "Text",
+ CellChangeTimes->{3.501861583763851*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"plotTab", "[", 
+   RowBox[{
+   "theta_", ",", " ", "minOffset_", ",", " ", "tabAngle_", ",", " ", 
+    "minTablength_", ",", " ", "tabHeight_"}], "]"}], " ", ":=", " ", 
+  RowBox[{"(", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"minOffset", " ", ">", " ", "tabHeight"}], ",", " ", 
+      RowBox[{"mo", " ", "=", " ", "tabHeight"}], ",", " ", 
+      RowBox[{"mo", " ", "=", " ", "minOffset"}]}], "]"}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"topLimitLine", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{"Dashed", ",", " ", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"100", " ", 
+             RowBox[{"Cos", "[", "theta", "]"}]}], ",", " ", 
+            RowBox[{"100", " ", 
+             RowBox[{"Sin", "[", "theta", "]"}]}]}], "}"}]}], "}"}], "]"}]}], 
+      "}"}]}], ";", " ", "\[IndentingNewLine]", 
+    RowBox[{"bottomLine", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{"Line", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"100", ",", "0"}], "}"}]}], "}"}], "]"}], "}"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"tabLine", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{"Dotted", ",", " ", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "tabHeight"}], "}"}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"100", ",", "tabHeight"}], "}"}]}], "}"}], "]"}]}], 
+      "}"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"bX", " ", "=", " ", 
+     RowBox[{"mo", " ", 
+      RowBox[{"Cot", "[", "theta", "]"}]}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"aX", " ", "=", " ", 
+     RowBox[{"bX", " ", "-", " ", 
+      RowBox[{"(", 
+       RowBox[{"mo", " ", 
+        RowBox[{"Cot", "[", "tabAngle", "]"}]}], ")"}]}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"b", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Point", "[", 
+        RowBox[{"{", 
+         RowBox[{"bX", ",", "0"}], "}"}], "]"}], ",", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"bX", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"bX", ",", "mo"}], "}"}]}], "}"}], "]"}]}], "}"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"a", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Point", "[", 
+        RowBox[{"{", 
+         RowBox[{"aX", ",", "0"}], "}"}], "]"}], ",", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"aX", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"bX", ",", "mo"}], "}"}]}], "}"}], "]"}]}], "}"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"bmult", " ", "=", " ", 
+     RowBox[{"100", "/", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Cos", "[", "theta", "]"}], " ", 
+         RowBox[{
+          RowBox[{"Sin", "[", "tabAngle", "]"}], "/", 
+          RowBox[{"Sin", "[", "theta", "]"}]}]}], " ", "+", 
+        RowBox[{"Cos", "[", "tabAngle", "]"}]}], ")"}]}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"tiY", " ", "=", " ", 
+     RowBox[{"bmult", " ", 
+      RowBox[{"Sin", "[", "tabAngle", "]"}]}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"tiX", " ", "=", " ", 
+     RowBox[{"100", "-", 
+      RowBox[{"(", 
+       RowBox[{"bmult", " ", 
+        RowBox[{"Cos", "[", "tabAngle", "]"}]}], ")"}]}]}], ";", 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"checkline", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"tiX", ",", "0"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"tiX", ",", " ", "tiY"}], "}"}]}], "}"}], "]"}], ",", 
+        "Red", ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "tiY"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"100", ",", "tiY"}], "}"}]}], "}"}], "]"}], ",", 
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"100", ",", "0"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"100", " ", "-", " ", 
+              RowBox[{"100", " ", 
+               RowBox[{"Cos", "[", "tabAngle", "]"}]}]}], ",", 
+             RowBox[{"100", " ", 
+              RowBox[{"Sin", "[", "tabAngle", "]"}]}]}], "}"}]}], "}"}], 
+         "]"}]}], "}"}], "}"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"theta", " ", "\[GreaterEqual]", " ", "tabAngle"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"tabLeft", " ", "=", " ", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"tabHeight", "/", 
+             RowBox[{"Sin", "[", "tabAngle", "]"}]}], " ", 
+            RowBox[{"Cos", "[", "tabAngle", "]"}]}], ",", "tabHeight"}], 
+          "}"}]}], "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"tabLeft", " ", "=", " ", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"aX", ",", " ", "0"}], "}"}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"bX", ",", " ", "mo"}], "}"}]}], "}"}]}]}], 
+     "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"tiY", " ", ">", " ", "tabHeight"}], ",", " ", 
+      RowBox[{"tiY", " ", "=", " ", "tabHeight"}]}], "]"}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"tabRight", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"100", "-", 
+          RowBox[{
+           RowBox[{"tiY", "/", 
+            RowBox[{"Sin", "[", "tabAngle", "]"}]}], 
+           RowBox[{"Cos", "[", "tabAngle", "]"}]}]}], ",", "tiY"}], "}"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"100", ",", "0"}], "}"}]}], "}"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"tab", " ", "=", " ", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"Blue", ",", " ", 
+        RowBox[{"Line", "[", 
+         RowBox[{"Join", "[", 
+          RowBox[{"tabLeft", ",", "tabRight"}], "]"}], "]"}]}], "}"}], 
+      "}"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "tab", ",", "b", ",", "topLimitLine", ",", " ", "bottomLine", ",", 
+       "tabLine"}], "}"}], "]"}]}], "\[IndentingNewLine]", ")"}]}]], "Input",
+ CellChangeTimes->CompressedData["
+1:eJwdzVsoQwEAh/EzT2wuL7M0klsiQnlj0WooMtpY2YZixBr2JhxJki3aSbnf
+W0kiJNty10LMJQ9z8qZphjVLZInC+Z+Hr9/jF1/XJmsIIggijgma5vf+zgRe
+ca3Pwz9npOUKIXzr2oyBq7+SRCjmeFgdTn0KfHzoYV1J2kyHu63cLCgqJvOg
+upQWw8++jQLorrcXwlS+oQyG1pNVUKXT10KFLboR2k4saQ7Ge1KZAYe+zdnQ
+H+XOhTvuDxkUtGbKYX7arxJKvFoVHFXkaODE0UsTVIq222G/j2uGnPGRQ/jT
+3HUDA8fTTvgyk3wLh13qV2hJzvbDFqKGuGB8dy6w3vE6+bB68VkA908boy4Z
+y43hCXBKl1oEI7rHyuGTLNIAK4YHKWh85U1C4YGWVecrmYVbA1IzfJZal2AY
+SS3DOWHfGjTLezfg8Zppi/1Vxu7DjvXgK6hVqa6hm3LRkLJqXLA9QPhhp736
+C2bRHyFXjAeHOTz4D874BSI=
+  "]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"tabAngle", " ", "=", " ", "45"}], ";", " ", 
+  RowBox[{"height", " ", "=", " ", "19"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"minheight", " ", "=", " ", "10"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Grid", "[", 
+  RowBox[{"{", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"plotTab", "[", 
+      RowBox[{
+       RowBox[{"70", " ", "Degree"}], ",", " ", "minheight", ",", " ", 
+       RowBox[{"tabAngle", " ", "Degree"}], ",", " ", "40", ",", " ", 
+       "height"}], "]"}], ",", 
+     RowBox[{"plotTab", "[", 
+      RowBox[{
+       RowBox[{"30", " ", "Degree"}], ",", " ", "minheight", ",", " ", 
+       RowBox[{"tabAngle", " ", "Degree"}], ",", " ", "40", ",", " ", 
+       "height"}], "]"}], ",", 
+     RowBox[{"plotTab", "[", 
+      RowBox[{
+       RowBox[{"10", " ", "Degree"}], ",", " ", "minheight", ",", " ", 
+       RowBox[{"tabAngle", " ", "Degree"}], ",", " ", "40", ",", " ", 
+       "height"}], "]"}]}], "}"}], "}"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.501607202429487*^9, 3.5016072280582123`*^9}, 
+   3.501607660877501*^9, {3.501609461803671*^9, 3.5016095001874447`*^9}, {
+   3.501609601071204*^9, 3.50160964959871*^9}, {3.5016096971683283`*^9, 
+   3.501609747272892*^9}, {3.501610697023831*^9, 3.501610712062723*^9}, {
+   3.501611206290403*^9, 3.501611223946381*^9}, {3.501614294574505*^9, 
+   3.50161429471801*^9}, {3.501614607565199*^9, 3.5016146240981092`*^9}, {
+   3.501614714711698*^9, 3.501614731063661*^9}, 3.501615208962522*^9, {
+   3.501615243891325*^9, 3.501615267787436*^9}, {3.501615371605966*^9, 
+   3.5016153840859613`*^9}, {3.50161542686341*^9, 3.501615551586691*^9}, 
+   3.501615584499577*^9}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     GraphicsBox[{
+       {RGBColor[0, 0, 1], LineBox[{{0, 0}, {19, 19}, {81, 19}, {100, 0}}]}, {
+        PointBox[NCache[{10 Tan[20 Degree], 0}, {3.6397023426620234`, 0}]], 
+        LineBox[NCache[{{10 Tan[20 Degree], 0}, {10 Tan[20 Degree], 10}}, {{
+           3.6397023426620234`, 0}, {3.6397023426620234`, 10}}]]}, 
+       {Dashing[{Small, Small}], 
+        LineBox[NCache[{{0, 0}, {100 Sin[20 Degree], 100 Cos[20 Degree]}}, {{
+           0, 0}, {34.20201433256687, 93.96926207859084}}]]}, 
+       LineBox[{{0, 0}, {100, 0}}], 
+       {Dashing[{0, Small}], LineBox[{{0, 19}, {100, 19}}]}}], 
+     GraphicsBox[{
+       {RGBColor[0, 0, 1], 
+        LineBox[NCache[{{0, 0}, {-10 + 10 3^Rational[1, 2], 0}, {
+           10 3^Rational[1, 2], 10}, {81, 19}, {100, 0}}, {{0, 0}, {
+           7.320508075688771, 0}, {17.32050807568877, 10}, {81, 19}, {100, 
+           0}}]]}, {
+        PointBox[NCache[{10 3^Rational[1, 2], 0}, {17.32050807568877, 0}]], 
+        LineBox[NCache[{{10 3^Rational[1, 2], 0}, {
+           10 3^Rational[1, 2], 10}}, {{17.32050807568877, 0}, {
+           17.32050807568877, 10}}]]}, 
+       {Dashing[{Small, Small}], 
+        LineBox[NCache[{{0, 0}, {50 3^Rational[1, 2], 50}}, {{0, 0}, {
+           86.60254037844386, 50}}]]}, LineBox[{{0, 0}, {100, 0}}], 
+       {Dashing[{0, Small}], LineBox[{{0, 19}, {100, 19}}]}}], 
+     GraphicsBox[{
+       {RGBColor[0, 0, 1], 
+        LineBox[NCache[{{0, 0}, {-10 + 10 Cot[10 Degree], 0}, {
+           10 Cot[10 Degree], 10}, {
+           100 - 50 2^Rational[1, 2]/(2^Rational[-1, 2] + 
+            2^Rational[-1, 2] Cot[10 Degree]), 50 2^Rational[1, 2]/(
+            2^Rational[-1, 2] + 2^Rational[-1, 2] Cot[10 Degree])}, {100, 
+           0}}, {{0, 0}, {46.712818196177096`, 0}, {
+           56.712818196177096`, 10}, {85.01037691048549, 
+           14.989623089514515`}, {100, 0}}]]}, {
+        PointBox[NCache[{10 Cot[10 Degree], 0}, {56.712818196177096`, 0}]], 
+        LineBox[NCache[{{10 Cot[10 Degree], 0}, {10 Cot[10 Degree], 10}}, {{
+           56.712818196177096`, 0}, {56.712818196177096`, 10}}]]}, 
+       {Dashing[{Small, Small}], 
+        LineBox[
+         NCache[{{0, 0}, {100 Cos[10 Degree], 100 Sin[10 Degree]}}, {{0, 0}, {
+           98.4807753012208, 17.364817766693033`}}]]}, 
+       LineBox[{{0, 0}, {100, 0}}], 
+       {Dashing[{0, Small}], LineBox[{{0, 19}, {100, 19}}]}}]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.50160950058666*^9, {3.501609607176836*^9, 3.5016096500274353`*^9}, {
+   3.501609698039144*^9, 3.501609748484576*^9}, {3.501609791179779*^9, 
+   3.50160980258328*^9}, {3.5016102412535877`*^9, 3.5016102604508543`*^9}, 
+   3.50161063175534*^9, 3.5016106679303503`*^9, {3.501610706884983*^9, 
+   3.5016107127144423`*^9}, 3.501610869665346*^9, 3.501611016699904*^9, {
+   3.501611182828566*^9, 3.5016112245612173`*^9}, 3.5016133325174828`*^9, 
+   3.501613705183425*^9, 3.5016142083476267`*^9, {3.501614286946681*^9, 
+   3.5016142951473923`*^9}, 3.501614358643786*^9, 3.5016144155970078`*^9, 
+   3.501614473271398*^9, 3.501614504153157*^9, {3.501614548908834*^9, 
+   3.5016145723141127`*^9}, {3.501614608301491*^9, 3.501614624885274*^9}, {
+   3.501614709793357*^9, 3.501614731454988*^9}, {3.5016150323278427`*^9, 
+   3.5016150460093193`*^9}, {3.501615197136549*^9, 3.501615209614108*^9}, {
+   3.501615244871945*^9, 3.5016152682616673`*^9}, 3.501615384657687*^9, {
+   3.501615427999216*^9, 3.501615439104538*^9}, {3.501615544279983*^9, 
+   3.5016155519546432`*^9}, 3.5016155850373917`*^9}]
+}, Open  ]]
+},
+WindowSize->{981, 894},
+WindowMargins->{{Automatic, 312}, {Automatic, 79}},
+ShowSelection->True,
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
+2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 819, 17, 161, "Text"],
+Cell[1367, 39, 7585, 207, 388, "Input"],
+Cell[CellGroupData[{
+Cell[8977, 250, 1679, 34, 88, "Input"],
+Cell[10659, 286, 3635, 65, 187, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

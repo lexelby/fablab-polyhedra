@@ -1,0 +1,361 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[     11784,        352]
+NotebookOptionsPosition[     11022,        321]
+NotebookOutlinePosition[     11381,        337]
+CellTagsIndexPosition[     11338,        334]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}]}], ";", " ", 
+  RowBox[{"b", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"p", " ", "=", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Cos", "[", 
+       RowBox[{"60", " ", "Degree"}], "]"}], ",", 
+      RowBox[{"Sin", "[", 
+       RowBox[{"60", " ", "Degree"}], "]"}]}], "}"}]}], ";"}], 
+  " "}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"GRi", " ", "=", " ", 
+   RowBox[{"1", "/", "GoldenRatio"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"points", " ", "=", "  ", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "b", ",", "p", ",", 
+      RowBox[{"{", 
+       RowBox[{"GRi", ",", "0"}], "}"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", "-", "GRi"}], ",", "0"}], "}"}], ",", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"GRi", " ", "*", " ", 
+         RowBox[{"(", 
+          RowBox[{"p", " ", "-", " ", "b"}], ")"}]}], ")"}], " ", "+", " ", 
+       "b"}], ",", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", "GRi"}], ")"}], " ", "*", " ", 
+         RowBox[{"(", 
+          RowBox[{"p", "-", "b"}], ")"}]}], ")"}], " ", "+", " ", "b"}], ",", 
+      " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"GRi", " ", "*", " ", 
+         RowBox[{"(", 
+          RowBox[{"p", " ", "-", " ", "a"}], ")"}]}], ")"}], " ", "+", " ", 
+       "a"}], ",", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", "GRi"}], ")"}], " ", "*", " ", 
+         RowBox[{"(", 
+          RowBox[{"p", "-", "a"}], ")"}]}], ")"}], " ", "+", " ", "a"}]}], 
+     "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Graphics", "[", 
+  RowBox[{"GraphicsComplex", "[", "\[IndentingNewLine]", 
+   RowBox[{"points", ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Line", "[", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "2"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"2", ",", "3"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"3", ",", "1"}], "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"{", 
+          RowBox[{"4", ",", "3"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"5", ",", "3"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"6", ",", "1"}], "}"}], ",", " ", 
+         RowBox[{"{", 
+          RowBox[{"7", ",", "1"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"8", ",", "2"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"9", ",", "2"}], "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"{", 
+          RowBox[{"8", ",", "7"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"7", ",", "5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"5", ",", "8"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"6", ",", "4"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"4", ",", "9"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"9", ",", "6"}], "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"{", 
+          RowBox[{"9", ",", "7"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"6", ",", "5"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"8", ",", "4"}], "}"}]}], "\[IndentingNewLine]", "}"}], 
+       "]"}], ",", " ", "\[IndentingNewLine]", 
+      RowBox[{"Map", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{
+           RowBox[{"Text", "[", 
+            RowBox[{"#", ",", "#"}], "]"}], ",", " ", "Larger"}], "]"}], " ", 
+         "&"}], ",", " ", 
+        RowBox[{"Range", "[", "9", "]"}]}], "]"}]}], "}"}]}], "]"}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.5007732166529408`*^9, 3.500773310840095*^9}, {
+  3.500773355521394*^9, 3.500773441508163*^9}, {3.500773480372292*^9, 
+  3.500773718578155*^9}, {3.5007737703765*^9, 3.500773944026743*^9}, {
+  3.500773996648224*^9, 3.5007740680720587`*^9}, {3.500774107323564*^9, 
+  3.500774112337069*^9}, {3.5007741431133127`*^9, 3.500774270511025*^9}, {
+  3.500774313838025*^9, 3.5007743744444227`*^9}, {3.5007745452644444`*^9, 
+  3.5007745686854773`*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  GraphicsComplexBox[
+   NCache[{{0, 0}, {1, 0}, {
+     Rational[1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     GoldenRatio^(-1), 0}, {1 - GoldenRatio^(-1), 0}, {
+     1 + Rational[-1, 2]/GoldenRatio, Rational[1, 2] 3^Rational[1, 2]/
+      GoldenRatio}, {
+     1 + Rational[1, 2] (-1 + GoldenRatio^(-1)), Rational[1, 2] 
+      3^Rational[1, 2] (1 - GoldenRatio^(-1))}, {
+     Rational[1, 2]/GoldenRatio, Rational[1, 2] 3^Rational[1, 2]/
+      GoldenRatio}, {
+     Rational[1, 2] (1 - GoldenRatio^(-1)), Rational[1, 2] 
+      3^Rational[1, 2] (1 - GoldenRatio^(-1))}}, {{0, 0}, {1, 0}, {0.5, 
+     0.8660254037844386}, {0.6180339887498948, 0}, {0.3819660112501052, 0}, {
+     0.6909830056250525, 0.5352331346596348}, {0.8090169943749475, 
+     0.3307922691248038}, {0.3090169943749474, 0.5352331346596348}, {
+     0.1909830056250526, 0.3307922691248038}}], {
+    LineBox[{{1, 2}, {2, 3}, {3, 1}, {4, 3}, {5, 3}, {6, 1}, {7, 1}, {8, 2}, {
+     9, 2}, {8, 7}, {7, 5}, {5, 8}, {6, 4}, {4, 9}, {9, 6}, {9, 7}, {6, 5}, {
+     8, 4}}], {
+     StyleBox[InsetBox["1", 1],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["2", 2],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["3", 3],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["4", 4],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["5", 5],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["6", 6],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["7", 7],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["8", 8],
+      StripOnInput->False,
+      FontSize->Larger], 
+     StyleBox[InsetBox["9", 9],
+      StripOnInput->False,
+      FontSize->Larger]}}]]], "Output",
+ CellChangeTimes->{
+  3.500773312128559*^9, 3.50077341024419*^9, 3.500773442057292*^9, 
+   3.500773579227274*^9, {3.5007736210761547`*^9, 3.5007736292428293`*^9}, 
+   3.500773686906989*^9, 3.5007737191749687`*^9, 3.500773784416044*^9, 
+   3.500773845018525*^9, {3.500773875696885*^9, 3.500773882727851*^9}, {
+   3.500773931407707*^9, 3.5007739448326063`*^9}, 3.500774038522379*^9, 
+   3.500774069379793*^9, 3.500774112723572*^9, 3.50077427221392*^9, 
+   3.500774337425082*^9, 3.500774563992169*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dAngle", "[", 
+   RowBox[{"v1_", ",", " ", "v2_"}], "]"}], " ", ":=", " ", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"VectorAngle", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"points", "[", 
+        RowBox[{"[", 
+         RowBox[{"v1", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "]"}], "]"}], "-", 
+       RowBox[{"points", "[", 
+        RowBox[{"[", 
+         RowBox[{"v1", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}]}], ",", 
+      RowBox[{
+       RowBox[{"points", "[", 
+        RowBox[{"[", 
+         RowBox[{"v2", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "]"}], "]"}], "-", 
+       RowBox[{"points", "[", 
+        RowBox[{"[", 
+         RowBox[{"v2", "[", 
+          RowBox[{"[", "1", "]"}], "]"}], "]"}], "]"}]}]}], "]"}], " ", "/", 
+    "Degree"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.500774603798541*^9, 3.5007746386494923`*^9}, {
+  3.500774684210249*^9, 3.500774763724656*^9}, {3.500774833325382*^9, 
+  3.5007748439846153`*^9}, {3.500774896177869*^9, 3.5007749370587597`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "The", " ", "face", " ", "defined", " ", "by", " ", "the", " ", "lines", 
+     " ", 
+     RowBox[{"{", 
+      RowBox[{"6", ",", "1"}], "}"}]}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"2", ",", "8"}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"5", ",", "3"}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"3", ",", "4"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"the", " ", "ninth", " ", "stellation", " ", "W34"}]}], " ", 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"W34", " ", "=", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"dAngle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"3", ",", "5"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"3", ",", "4"}], "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
+      
+      RowBox[{"dAngle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"4", ",", "3"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"6", ",", "1"}], "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
+      
+      RowBox[{"dAngle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"6", ",", "1"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"8", ",", "2"}], "}"}]}], "]"}]}], "}"}]}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.500776611436647*^9, 3.500776662750124*^9}, {
+  3.500776694774447*^9, 3.50077674388131*^9}, {3.500776790050926*^9, 
+  3.500776845004674*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "15.522487814070068`", ",", "119.99999999999999`", ",", 
+   "104.47751218592992`"}], "}"}]], "Output",
+ CellChangeTimes->{3.500776768286672*^9, 3.5007768455859823`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"W34", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "/", "2"}], "\[IndentingNewLine]", 
+ RowBox[{"180", "-", " ", 
+  RowBox[{
+   RowBox[{"W34", "[", 
+    RowBox[{"[", "3", "]"}], "]"}], "/", "2"}]}]}], "Input",
+ CellChangeTimes->{{3.500776916255664*^9, 3.500776949844812*^9}, {
+  3.500776990094265*^9, 3.500776991381325*^9}}],
+
+Cell[BoxData["7.761243907035034`"], "Output",
+ CellChangeTimes->{3.500776950245034*^9, 3.500776991807741*^9}],
+
+Cell[BoxData["127.76124390703504`"], "Output",
+ CellChangeTimes->{3.500776950245034*^9, 3.500776991809083*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"W34", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "*", "5"}]], "Input",
+ CellChangeTimes->{{3.500779110397583*^9, 3.500779119964939*^9}}],
+
+Cell[BoxData["77.61243907035035`"], "Output",
+ CellChangeTimes->{3.500779120870041*^9}]
+}, Open  ]]
+},
+WindowSize->{640, 750},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+ShowSelection->True,
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (February 18, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 4373, 120, 238, "Input"],
+Cell[4943, 144, 2337, 55, 328, "Output"]
+}, Open  ]],
+Cell[7295, 202, 1065, 29, 58, "Input"],
+Cell[CellGroupData[{
+Cell[8385, 235, 1494, 44, 103, "Input"],
+Cell[9882, 281, 210, 5, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10129, 291, 356, 9, 43, "Input"],
+Cell[10488, 302, 109, 1, 27, "Output"],
+Cell[10600, 305, 110, 1, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10747, 311, 169, 4, 27, "Input"],
+Cell[10919, 317, 87, 1, 27, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

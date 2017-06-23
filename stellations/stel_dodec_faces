@@ -1,0 +1,85 @@
+Directions are always read clockwise.  Note that w == light blue, o = red-orange
+
+1) /wbogy -> p
+1w -> 2
+1b -> 6
+1o -> 5
+1g -> 4
+1y -> 3
+
+2) b/pyog -> w
+2b -> 6
+2p -> 1
+2y -> 3
+2o -> 9
+2g -> 8
+
+3) wp/gbo -> y
+3w -> 2
+3p -> 1
+3g -> 4
+3b -> 10
+3o -> 9
+
+4) wbyp/o -> g
+4w -> 11
+4b -> 10
+4y -> 3
+4p -> 1
+4o -> 5
+
+5) wgp/by -> o
+5w -> 11
+5g -> 4
+5p -> 1
+5b -> 6
+5y -> 7
+
+6) w/gyop -> b
+6g -> 8
+6y -> 7
+6o -> 5
+6p -> 1
+6w -> 2
+
+7) bg/pwo -> y
+7b -> 6
+7g -> 8
+7p -> 12
+7w -> 11
+7o -> 5
+
+8) wo/pyb -> g
+8w -> 2
+8o -> 9
+8p -> 12
+8y -> 7
+8b -> 6
+
+9) wyb/pg -> o
+9w -> 2
+9y -> 3
+9b -> 10
+9p -> 12
+9g -> 8
+
+10) w/poyg -> b
+10w -> 11
+10p -> 12
+10o -> 9
+10y -> 3
+10g -> 4
+
+11) b/goyp -> w
+11b -> 10
+11g -> 4
+11o -> 5
+11y -> 7
+11p -> 12
+
+12) w/ygob -> p
+12w -> 11
+12y -> 7
+12g -> 8
+12o -> 9
+12b -> 10

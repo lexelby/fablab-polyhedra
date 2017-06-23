@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4772"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   width="300"
+   height="161.25"
+   xml:space="preserve"
+   sodipodi:docname="Icosahedron.pdf"><metadata
+     id="metadata4778"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4776"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4788"><path
+         d="M 0,0 240,0 240,129 0,129 0,0 z"
+         id="path4790" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview4774"
+     showgrid="false"
+     inkscape:zoom="1.6248062"
+     inkscape:cx="150"
+     inkscape:cy="80.625"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g4780" /><g
+     id="g4780"
+     inkscape:groupmode="layer"
+     inkscape:label="Icosahedron"
+     transform="matrix(1.25,0,0,-1.25,0,161.25)"><g
+       id="g4782" /><g
+       id="g4784"><g
+         id="g4786"
+         clip-path="url(#clipPath4788)"><path
+           d="M 46.691,4.608 25.745,40.887 M 46.691,4.608 67.636,40.887 M 88.582,4.608 67.636,40.887 M 88.582,4.608 109.527,40.887 M 130.473,4.608 109.527,40.887 M 130.473,4.608 151.418,40.887 M 172.364,4.608 151.418,40.887 M 172.364,4.608 193.309,40.887 M 214.255,4.608 193.309,40.887 M 214.255,4.608 235.2,40.887 m -209.455,0 41.891,0 m -41.891,0 L 4.8,77.165 M 25.745,40.887 46.691,77.165 m 20.945,-36.278 41.891,0 m -41.891,0 -20.945,36.278 M 67.636,40.887 88.582,77.165 m 20.945,-36.278 41.891,0 m -41.891,0 -20.945,36.278 m 20.945,-36.278 20.946,36.278 m 20.945,-36.278 41.891,0 m -41.891,0 -20.945,36.278 m 20.945,-36.278 20.946,36.278 m 20.945,-36.278 41.891,0 m -41.891,0 -20.945,36.278 m 20.945,-36.278 20.946,36.278 M 235.2,40.887 214.255,77.165 m -209.455,0 41.891,0 m -41.891,0 20.945,36.279 m 20.946,-36.279 41.891,0 m -41.891,0 -20.946,36.279 m 20.946,-36.279 20.945,36.279 m 20.946,-36.279 41.891,0 m -41.891,0 -20.946,36.279 m 20.946,-36.279 20.945,36.279 m 20.946,-36.279 41.891,0 m -41.891,0 -20.946,36.279 m 20.946,-36.279 20.945,36.279 m 20.946,-36.279 41.891,0 m -41.891,0 -20.946,36.279 m 20.946,-36.279 20.945,36.279 m 20.946,-36.279 -20.946,36.279"
+           style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:0.4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none"
+           id="path4792" /><text
+           transform="matrix(1,0,0,-1,96.544,120.052)"
+           id="text4794"><tspan
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Times;font-variant:normal;font-weight:normal;font-size:9.6;writing-mode:lr;-inkscape-font-specification:Times-Roman"
+             x="0 3.1968 7.4592 12.2592 15.9936 20.256 25.056 29.3184 34.1184 37.3152 42.1152"
+             y="0"
+             sodipodi:role="line"
+             id="tspan4796">Icosahedron</tspan></text>
+</g></g></g></svg>
